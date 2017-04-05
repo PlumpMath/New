@@ -36,7 +36,7 @@ def main():
         p=plugin.plugin_object.print_name()
         print("path is:",p)
         plugin.plugin_object.convert_from_xml(p)  
-        #plugin.plugin_object.convert_from_xlsx()
+        plugin.plugin_object.convert_from_xlsx(p)
         
 
    
